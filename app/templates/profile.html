@@ -1,0 +1,37 @@
+{% extends "base.html" %} 
+
+{% block css %}
+
+<link rel="stylesheet" href="/static/css/profile.css">
+
+{% endblock %}
+
+{% block main %} 
+
+<h1 class="page-header">Profile</h1>
+
+<div class="profile-picture">
+   <img id="pic" src="{{url_for('static',filename='profilePic.jpg')}}" alt="Picture of Me">
+</div>
+
+<div id="container">
+    <div id="name-header">
+         <h1> {{ name }} </h1>
+    </div>
+    <div id="date">
+        <p>Today's date is {{ today }}</p>
+    </div>
+    <div id="info-list">
+        <dl><dt>Username:</dt><dd>KimPossible</dd>
+            <dt>ID Number:</dt><dd>620011111</dd>
+            <dt>Age:</dt><dd>18</dd>
+            <dt>Gender:</dt><dd>Female</dd>
+        </dl>
+    </div>
+    <div id="about">
+        <p>I'm your basic average girl and I'm here to save the world.</p>
+        <p>Call me, beep me if ya wanna reach me.</p>
+    </div>
+</div>
+
+{% endblock %}

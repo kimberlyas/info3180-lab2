@@ -1,0 +1,28 @@
+.profile-picture { float: left;
+                   border-color: #D0D0D0;
+                   padding:3px;
+                 }
+
+#pic { width:300px;
+       height:300px;
+     }
+
+#container { float: right;
+             border-color: #D0D0D0;
+             background-color: red;
+           }
+
+#name-header { background-color: #E0E0E0;
+               border-bottom: #D0D0D0;
+             }
+
+#date { border-bottom: #D0D0D0;
+        background-color: blue;}
+
+#info-list { border-bottom: #D0D0D0; 
+             background-color: yellow;
+}
+
+#about { border-bottom: #D0D0D0; 
+         background-color: green;
+}
