@@ -1,28 +1,33 @@
-.profile-picture { float: left;
-                   border-color: #D0D0D0;
-                   padding:3px;
+.profile-picture { border: 2px  solid black;
+                   border-radius: 5px;
+               
+	               padding: 5px;
+	              
                  }
 
-#pic { width:300px;
-       height:300px;
+#pic { width:200px;
+       height:200px;
      }
+     
+.container { width: 50%;
+             display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;}
 
-#container { float: right;
-             border-color: #D0D0D0;
-             background-color: red;
+.info-container { 
+             
+             border: 2px solid black;
+             border-radius: 5px;
            }
 
-#name-header { background-color: #E0E0E0;
-               border-bottom: #D0D0D0;
-             }
+#name-header { background-color: #E0E0E0; }
+                
+.separator { border-bottom: 1px solid #D0D0D0; }
 
-#date { border-bottom: #D0D0D0;
-        background-color: blue;}
-
-#info-list { border-bottom: #D0D0D0; 
-             background-color: yellow;
-}
-
-#about { border-bottom: #D0D0D0; 
-         background-color: green;
-}
+dt {
+    float: left;
+    clear: left;
+    text-align: left;
+    font-weight: bold;
+  }
