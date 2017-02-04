@@ -35,7 +35,6 @@ def profile():
 # The functions below should be applicable to all Flask apps.
 ###
 
-@app.route("/timeinfo/")
 def timeinfo():
     return time.strftime("%a, %d %b %Y")
 

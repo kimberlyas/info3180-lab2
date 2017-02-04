@@ -1,6 +1,6 @@
 .profile-picture { border: 2px  solid black;
                    border-radius: 5px;
-               
+                   float: left;
 	               padding: 5px;
 	              
                  }
@@ -9,14 +9,9 @@
        height:200px;
      }
      
-.container { width: 50%;
-             display: flex;
-  justify-content: space-around;
-  align-items: center;
-  align-content: space-between;}
 
 .info-container { 
-             
+             float: right;
              border: 2px solid black;
              border-radius: 5px;
            }
