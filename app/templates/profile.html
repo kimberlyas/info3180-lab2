@@ -10,7 +10,7 @@
 
 <h1 class="page-header">Profile</h1>
 
-<div class="container">
+<div class="main-container">
     
     <div class="profile-picture">
        <img id="pic" src="{{ url_for('static',filename='img/profilePic.jpg') }}" alt="Picture of Me">
@@ -22,14 +22,14 @@
         </div>
         
         <div id="date" class="separator">
-            <p>Today's date is {{ today }}</p>
+            <p>Today's date is <b>{{ today }}</b></p>
         </div>
         
         <div id="info-list" class="separator">
-            <dl><dt>Username:</dt><dd>KimPossible</dd>
-                <dt>ID Number:</dt><dd>620011111</dd>
-                <dt>Age:</dt><dd>18</dd>
-                <dt>Gender:</dt><dd>Female</dd>
+            <dl><dt>Username: </dt><dd> KimPossible</dd>
+                <dt>ID Number: </dt><dd> 620011111</dd>
+                <dt>Age: </dt><dd> 18</dd>
+                <dt>Gender: </dt><dd> Female</dd>
             </dl>
         </div>
         
